@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+}
+
+.box {
+  background: #ddd;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+}
